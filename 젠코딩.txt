@@ -1,0 +1,68 @@
+식 : div.container>div.row>div*3
+
+<div class="container">
+	<div clcass="row">
+		<div id = "item"></div>
+		<div id = "item"></div>
+		<div id = "item"></div>
+	</div>
+</div>
+
+식 : div.container>div.row>div#item$*3
+
+<div class="container">
+	<div class ="row">
+		<div id = "item01"></div>
+		<div id = "item02"></div>
+		<div id = "item03"></div>
+	</div>
+</div>
+
+식 : .navi>ul>li*5>a[href="sub$$.html"]{메뉴_$$}
+
+<div class="navi">
+	<ui>
+		<li><a href="sub01.html">메뉴_01</a></li>
+		<li><a href="sub02.html">메뉴_02</a></li>
+		<li><a href="sub03.html">메뉴_03</a></li>
+		<li><a href="sub04.html">메뉴_04</a></li>
+		<li><a href="sub05.html">메뉴_05</a></li>
+	</ui>
+</div>
+
+식 : img[src="../images/photo$.jpg"]*5
+
+		<img src="../images/photo1.jpg" alt="">
+		<img src="../images/photo2.jpg" alt="">
+		<img src="../images/photo3.jpg" alt="">
+		<img src="../images/photo4.jpg" alt="">
+		<img src="../images/photo5.jpg" alt="">	
+
+
+식 : input[type="radio" value="$" name="grade"]*4{$학년}
+
+		<input type="radio" value="1" name="grade">1학년</input>
+		<input type="radio" value="2" name="grade">2학년</input>
+		<input type="radio" value="3" name="grade">3학년</input>
+		<input type="radio" value="4" name="grade">4학년</input><br>
+
+
+식 : input[type="checkbox" value="h$" name="hobby"]*3{취미$}
+
+		<input type="checkbox" value="h1" name="hobby">영화</input>
+		<input type="checkbox" value="h2" name="hobby">독서</input>
+		<input type="checkbox" value="h3" name="hobby">기타</input>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
